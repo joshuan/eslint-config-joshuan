@@ -6,7 +6,7 @@ module.exports = {
                 devDependencies: [
                     'test/**',
                     '**/webpack.config.js',
-                    '**/webpack.config.*.js',
+                    'webpack/**',
                     '**/*.dev.js'
                 ],
                 optionalDependencies: false
