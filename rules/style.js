@@ -9,15 +9,21 @@ module.exports = {
         	'error',
         	'never'
     	],
-        
+
         'comma-dangle': [
         	'error',
         	'never'
     	],
-        
+
         'max-len': [
         	'error',
         	80
-    	]
+    	],
+
+        'arrow-parens': [
+        	'error',
+			"as-needed",
+			{"requireForBlockBody": false}
+		]
     }
 }
